@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bootstrap Learnings</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+
+            <a href="#" class="navbar-brand">
+                <span class="text-warning">
+                    Code
+                </span> Mentor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll learn</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#boxes" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container ">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning"> Developer</span></h1>
+                    <p class="lead my-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab est excepturi maiores similique
+                        cumque, consequatur ex enim facere perferendis libero itaque? Nobis, nesciunt?
+                    </p>
+                    <button class="btn btn-primary btn-lg">
+                        Start The Enrollment
+                    </button>
+                </div>
+                <img src="./imgs/programmer.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary bg-gradient text-light py-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter </h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn text-white bg-dark btn-lg" type="button" id="button-addon2">Sign Up</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5" id="boxes">
+        <div class="container">
+            <div class="text-center mb-3">
+                <h2>Reviews</h2>
+                <hr>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-md ">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body  text-center">
+                            <div class="h1 mb-3">
+                                <img src="./imgs/avatar.svg" alt="" class="rounded-circle img-fluid bg-light img-rev">
+                            </div>
+                            <h3 class="card-title">
+                                Bilal
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate omnis, fuga quas
+                                vel
+                                veniam iste.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img src="./imgs/female.svg" alt="" class="rounded-circle img-fluid bg-light img-rev">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Zainab
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate omnis, fuga quas
+                                vel
+                                veniam iste.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img src="./imgs/jack.svg" alt="" class="rounded-circle img-fluid bg-light img-rev">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Jack
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate omnis, fuga quas
+                                vel
+                                veniam iste.
+                            </p>
+                            <a href="#" class="btn btn-primary ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learn Section -->
+    <Section class="p-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./imgs/showcase.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn The Fundamentals</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, esse tempore a possimus
+                        reiciendis ex?
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident esse non quo distinctio,
+                        neque qui nostrum reiciendis voluptates culpa nemo sequi! Dolore possimus blanditiis
+                        dignissimos.</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <Section class="p-5 bg-dark text-light" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-md p-5">
+                    <h2>Learn React</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, esse tempore a possimus
+                        reiciendis ex?
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident esse non quo distinctio,
+                        neque qui nostrum reiciendis voluptates culpa nemo sequi! Dolore possimus blanditiis
+                        dignissimos.</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="./imgs/react.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Footer Sec -->
+    <section class="p-2 text-center bg-primary text-light" id="footer">
+        <div class="container ">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h1 class="text-warning">About Dev</h1>
+                    <p class="mt-3 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, architecto.</p>
+
+                </div>
+                <h3>Connect</h3>
+                <ul class="d-">
+                    <li class="item"><a href="https://www.twitter.com/nadeem__dev" target="_blank"><i
+                                class="bi bi-twitter"></i></a> </li>
+
+                    <li class="item"> <a href="https://www.github.com/enn-dee" target="_blank"><i
+                                class="bi bi-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

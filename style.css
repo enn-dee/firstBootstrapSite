@@ -1,0 +1,21 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+li{
+    list-style: none;
+}
+.item>a{
+    text-decoration: none;
+    color: wheat;
+}
+.img-rev{
+    max-width: 10rem;
+    max-height: 7rem;
+}
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
